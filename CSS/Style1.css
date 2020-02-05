@@ -14,7 +14,15 @@
   margin: 5%;
   cursor: pointer;
 }
-
+.modalcolor{
+    background: rgba(0, 0, 0, 1.0);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+}
   .box{
     width: 450px;
     background: rgba(0, 0, 0, 0.7);
