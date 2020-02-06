@@ -18,16 +18,16 @@ About</h1>
 <h5>
 IT Engineer - Software developer</h5>
 <table align="center">
-    <th>
-      <tr>
-        <tc class="tab">Education</tc>
-        <tc class="tab">Hobbies</tc>
-        <tc class="tab">Life Goals</tc>
-      </tr>
-    </th>
-  </table>
-<p>
-sdasbnasnbcnsbcasbchjabscjasnclkjasbchjkamljnhbwgvhbjnkm nscvgbhwnjskmwndbwhdkjqwnd b2quqwhdjkbqvquiwdkjqbwd uhbjaxbqwushjknqwbshuqkqw oduhbkouwqknxwqbowqk qw wh dhbqw  wq dgqwhdqwhdbhjqb</p>
+  <th>
+    <tr>
+      <tc class="tab" ><a class="linker" onclick="changedisplay(this)">Education</a></tc>
+      <tc class="tab"><a class="linker" onclick="changedisplay(this)">Skills</a></tc>
+      <tc class="tab"><a class="linker" onclick="changedisplay(this)">Philosophy</a></tc>
+    </tr>
+  </th>
+</table>
+<div id="display">primero</div>
+<p id="Education" style="display: none;">primero</p><p class="Skills" style="display: none;">Segundo</p><p class="Philosophy" style="display: none;">Tercero</p>
 <p><a data-toggle="modal" data-target="#modalitm">
   Abrir
 </a></p>
@@ -51,27 +51,22 @@ sdasbnasnbcnsbcasbchjabscjasnclkjasbchjkamljnhbwgvhbjnkm nscvgbhwnjskmwndbwhdkjq
         </button>
       </div>
         
-      <div class="modal-body">
+      <div class="modal-body modinterno">
 
-          <h1 style="color: #007bff;">Guía Rapida:</h1>
-          <div style="font-weight: bolder;"><p>¡Bienvenido a la ventana para administrar Pedidos!</p></div>
-          <div>Para filtrar los pedidos, se debe elegir un rango de fechas</div>
-          <div>Se ingresa una fecha inicial y una final en los campos: <span><input type="date"step="1" value="xx-xx-xxxx"></span></div>
-          <div>una vez elegidas las fecha inicial y la final, dar click en el boton: <span><button class="btn btn-dark btn-lg btn-block mt-5 mb-4 pb-3" style="cursor: auto;"> <i class="fas fa-search ml-2 mr-2" aria-hidden="true"></i> Buscar</button></span></div>
+  <img src="yomero.jpg" width="50px" height="50px">
+  <p>Just override the Bootstrap style. As long as Bootstrap is included on your page before your custom CSS then your CSS should override Bootstrap as the specificity of the selector would be the same. Add this to your custom CSS and override the styles accordingly:</p>
 
 
-
-
-
-      </div>
+ </div>
      
       </div>
     </div>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script src="js/jquery.ripples-min.js"></script>
 
 </body>
 </html>

@@ -6,3 +6,7 @@ jQuery(document).ready(function(){
     
     });
 });
+
+function changedisplay(selection){
+    document.getElementById(selection).style.display = 'block';
+}

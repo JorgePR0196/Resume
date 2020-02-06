@@ -7,24 +7,41 @@
   }
  .linker{ color: inherit; 
   text-decoration: none;} 
-  .linker:hover{ color: orange;
+  .linker:hover{ color: #d66746;
     font-weight: bold; 
+    text-decoration: none;
     } 
+    .tabla{
+      margin-left: 0px;
+    }
 .tab{
-  margin: 5%;
+  margin: auto;
+  padding: 3%;
   cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
 }
 .modalcolor{
-    background: rgba(0, 0, 0, 1.0);
-    padding: 40px;
+    border-color: white;
+    background: url(../Images/SPACE2.jpg) no-repeat;
+    background-size: cover;
     text-align: center;
     margin: auto;
     margin-top: 5%;
     color: white;
     font-family: 'Century Gothic',sans-serif;
 }
+.modinterno{
+  background: rgba(0, 0, 0, 1.0);
+  padding: 5%;
+  margin: 1.5%;
+  text-align: center;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
   .box{
-    width: 450px;
+    width: 40%;
     background: rgba(0, 0, 0, 0.7);
     padding: 40px;
     text-align: center;
@@ -47,6 +64,7 @@
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 100;
+    margin-bottom: 5%;
   }
   .box p{
     text-align: justify;
