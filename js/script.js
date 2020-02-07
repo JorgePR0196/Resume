@@ -8,5 +8,26 @@ jQuery(document).ready(function(){
 });
 
 function changedisplay(selection){
-    document.getElementById(selection).style.display = 'block';
+    switch(selection) {
+        case "one":
+            document.getElementById(selection).style.display="block";
+            document.getElementById("two").style.display="none";
+            document.getElementById("three").style.display="none";
+        
+          break;
+        case "two":
+            document.getElementById(selection).style.display="block";
+            document.getElementById("one").style.display="none";
+            document.getElementById("three").style.display="none";
+        
+          break;
+          case "three":
+            document.getElementById(selection).style.display="block";
+            document.getElementById("two").style.display="none";
+            document.getElementById("one").style.display="none";
+              break;
+        default:
+          // code block
+      }
+    
 }

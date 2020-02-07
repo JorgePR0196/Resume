@@ -22,6 +22,9 @@
   letter-spacing: 3px;
   font-weight: 100;
 }
+#openmodal{
+  cursor: pointer;
+}
 .modalcolor{
     border-color: white;
     background: url(../Images/SPACE2.jpg) no-repeat;

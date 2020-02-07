@@ -20,24 +20,26 @@ IT Engineer - Software developer</h5>
 <table align="center">
   <th>
     <tr>
-      <tc class="tab" ><a class="linker" onclick="changedisplay(this)">Education</a></tc>
-      <tc class="tab"><a class="linker" onclick="changedisplay(this)">Skills</a></tc>
-      <tc class="tab"><a class="linker" onclick="changedisplay(this)">Philosophy</a></tc>
+      <tc class="tab" ><a class="linker" onclick="changedisplay(this.name)" name="one">Education</a></tc>
+      <tc class="tab"><a class="linker" onclick="changedisplay(this.name)" name="two">Skills</a></tc>
+      <tc class="tab"><a class="linker" onclick="changedisplay(this.name)" name="three">Philosophy</a></tc>
     </tr>
   </th>
 </table>
-<div id="display">primero</div>
-<p id="Education" style="display: none;">primero</p><p class="Skills" style="display: none;">Segundo</p><p class="Philosophy" style="display: none;">Tercero</p>
-<p><a data-toggle="modal" data-target="#modalitm">
+<div id="one" style="display: none;">primero<br><p><a data-toggle="modal" data-target="#modalitm">
   Abrir
-</a></p>
+</a></p></div><div id="two" style="display: none;">Segundo<br><p><a data-toggle="modal" data-target="#modalitm">
+  Abrir
+</a></p></div><div id="three" style="display: none;">Tercero<br><p><a data-toggle="modal" data-target="#modalitm">
+  Abrir
+</a></p></div>
+
 <ul>
 <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
 </ul>
 </div>
-<script src="js/jquery.ripples-min.js"></script>
-<script src="js/script.js"></script>
+
 </div>
 
 
@@ -67,6 +69,7 @@ IT Engineer - Software developer</h5>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="js/jquery.ripples-min.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
