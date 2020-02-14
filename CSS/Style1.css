@@ -58,6 +58,9 @@
     width: 200px;
     height: 200px;
   }
+  .desc{
+    text-align: left;
+  }
   .box h1{
     font-size: 40px;
     letter-spacing: 4px;
