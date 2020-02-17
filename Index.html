@@ -4,15 +4,17 @@
       <link rel="icon" href="https://image.flaticon.com/icons/png/512/263/263372.png">
     <meta charset="utf-8">
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>About Jorge</title>
+    <link rel="stylesheet" href="CSS/imagehover.min.css">
     <link rel="stylesheet" href="CSS/Style1.css">
-    <title>Jorge L. Ponce</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body class="fondo">
     <div>
 
 <div class="box">
-  <img src="fionafinalestasieslabuenaya.jpg" alt="" class="box-img">
+  <img src="shinji.png" alt="This is me" class="box-img">
   
   <h1>
 Jorge L. Ponce</h1>
@@ -21,19 +23,55 @@ IT Engineer - Software developer</h5>
 <table align="center">
     <th>
       <tr>
-        <tc class="tab" ><a class="linker" href="about.html">About</a></tc>
-        <tc class="tab"><a class="linker" href="resume.html">Resume</a></tc>
-        <tc class="tab"><a class="linker" href="projects.html">Projects</a></tc>
+        <tc class="tab" ><a class="linker" onclick="changedisplay(this.name)" name="one">About</a></tc>
+        <tc class="tab"><a class="linker" onclick="changedisplay(this.name)" name="two">Resume</a></tc>
+        <tc class="tab"><a class="linker" onclick="changedisplay(this.name)" name="three">Projects</a></tc>
       </tr>
     </th>
   </table>
 <p>
 A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications, or applications that are run over HTTP from a web server to a web browser.</p>
+<div id="one" style="display: none;">caca</div>
+<div id="two" style="display: none;">culo<p><a data-toggle="modal" data-target="#modalitm">
+  Abrir
+</a></p></div>
+<div id="three" style="display: none;">chichis</div>
 <ul>
 <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
 <li><a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a></li>
 </ul>
 </div>
+
+
+
+<div class="modal fade " id="modalitm">4431470097
+  
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content modalcolor">
+      <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title">ITM</h5>
+        <button class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div>
+        
+      <div class="modal-body modinterno">
+
+  <img src="yomero.jpg" width="50px" height="50px">
+  <p>Just override the Bootstrap style. As long as Bootstrap is included on your page before your custom CSS then your CSS should override Bootstrap as the specificity of the selector would be the same. Add this to your custom CSS and override the styles accordingly:</p>
+
+
+ </div>
+     
+      </div>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="js/jquery.ripples-min.js"></script>
 <script src="js/script.js"></script>
 </div>
